@@ -3,7 +3,8 @@ jquery.twoweeks.js
 
 A simple jQuery plugin to display a rolling two week calendar that you can use to select dates.
 
-Setup:
+# Quick Setup
+
 ### 1.   Include the JS at the bottom of your page:
         <script type="text/javascript" src="jquery.twoweeks.js"></script>
 
