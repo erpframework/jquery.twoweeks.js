@@ -21,6 +21,10 @@ A simple jQuery plugin to display a rolling two week calendar that you can use t
         $('#select-date .day').on('click', function(){
 
           var date = $(this).attr('data-date'); // contains the selected date
+          
+          $(this).parents('.two-weeks').find('day').removeClass('selected');  // remove previous selected days
+          
+          $(this).addClass('selected'); // select the day
 
         });
 
